@@ -1,0 +1,3 @@
+protoc --csharp_out=../sender-csharp/models ./Person.proto
+protoc --csharp_out=../receiver-csharp/models ./Person.proto
+set /p DUMMY=Hit ENTER to exit...

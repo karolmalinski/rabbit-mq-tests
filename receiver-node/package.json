@@ -1,0 +1,16 @@
+{
+  "name": "node_receive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reciver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node receiver.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "protobufjs": "^6.11.2"
+  }
+}

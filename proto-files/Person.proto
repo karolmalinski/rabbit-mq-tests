@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+option csharp_namespace = "Rabbitmq";
+message Person
+{
+int32 id = 1;
+string name = 2;
+Address address = 3;
+}
+
+message Address
+{
+int32 id = 1;
+string addressLine1 = 2;
+string city = 3;
+}
